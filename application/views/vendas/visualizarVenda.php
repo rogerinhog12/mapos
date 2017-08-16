@@ -155,9 +155,6 @@
             mywindow.document.write(data);          
             mywindow.document.write("</body></html>");
 
-            mywindow.document.close(); // necessary for IE >= 10
-
-
             return true;
         }
 
